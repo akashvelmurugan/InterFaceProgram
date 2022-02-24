@@ -11,7 +11,7 @@ interface Three extends One{
 }
 public class Main implements Two,Three{
 	public static void main(String[] args) {
-	Main main = new Main();
-	main.show();
+		Main main = new Main();
+		main.show();
 	}
 }

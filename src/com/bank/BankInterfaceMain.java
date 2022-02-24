@@ -5,7 +5,7 @@ public class BankInterfaceMain {
 
 		Bank bank= new Sbi();
 		System.out.println(bank.rateOfIntrest()+"%");
-		
-	
+
+
 	}
 }

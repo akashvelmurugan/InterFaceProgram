@@ -8,7 +8,7 @@ public interface Printable {
 	//public abstract void print(); -> default abstract
 	void printMethod();
 
-	
+
 
 
 

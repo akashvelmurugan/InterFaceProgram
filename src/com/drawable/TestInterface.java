@@ -6,7 +6,7 @@ interface Dravable{
 class Circle implements Dravable{
 	@Override
 	public void drow() {
-System.out.println("Drove In Circle ..........");	
+		System.out.println("Drove In Circle ..........");	
 	}
 }
 class Rectangle implements Dravable{
