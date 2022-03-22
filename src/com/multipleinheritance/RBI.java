@@ -1,8 +1,7 @@
 package com.multipleinheritance;
 
 public class RBI implements Sbi,CbiBank{
-	public static void main(String[] args) {
-	}
+	
 	@Override
 	public void fixed() {
 		System.out.println("6%");
@@ -14,5 +13,12 @@ public class RBI implements Sbi,CbiBank{
 	@Override
 	public void debied() {
 		System.out.println("8%");
+	
+	}
+	public static void main(String[] args) {
+	RBI rbi= new RBI();
+	rbi.fixed();
+	rbi.savings();
+	rbi.debied();
 	}
 }
